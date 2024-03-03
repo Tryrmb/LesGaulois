@@ -48,5 +48,23 @@ public class Romain {
         minus.sEquiper(Equipement.CASQUE);
     }
 
+<<<<<<< HEAD
+=======
+		}
+		
+	}
+	
+	public class Main {
+	    public static void main(String[] args) {
+	        // Vérification des méthodes dans la classe Romain
+	        Romain romain = new Romain("Un Romain", 10);
+	        romain.prendreParole(); // Vérification de la méthode prendreParole
+	        romain.parler("Je suis un Romain"); // Vérification de la méthode parler
+	        romain.recevoirCoup(3); // Vérification de la méthode recevoirCoup
+	        Romain Minus = new Romain("Minus", -6);
+	    }
+	}
+
+>>>>>>> 184ef49c3dd92fbdce98b39b4268a781a202c97a
 
 }
